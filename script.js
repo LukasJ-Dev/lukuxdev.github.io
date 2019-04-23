@@ -35,7 +35,7 @@ function onLoad() {
     }
 
     projectCards += `
-    <div class="card bg-light row" style="min-width:30rem; width:45%; margin:2%;">
+    <div class="card bg-light row" style=margin:2%;">
       <img src="./img/${projects[i].image}" class="card-img-top" alt="...">
       <div class="card-body">
         <h5 class="card-title">${projects[i].name} ${special}</h5>
